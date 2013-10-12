@@ -1,0 +1,82 @@
+V "GNAT Lib v4.3"
+A -mmacosx-version-min=10.8.5
+P SS ZX
+R nnnvnnnnnnnnnnnnnnnnnnvnnnnnvnnnnnnnnvnvnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
+
+U stl%b			stl.adb			8a0397b0 NE PK IU
+W ada%s			ada.ads			ada.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+
+U stl%s			stl.ads			30032b53 EE NE PK IU
+W algebre%s		algebre.adb		algebre.ali
+
+D ada.ads		20070406123219 9c7dd3ea
+D a-except.ads		20070606220628 ba3e26e2
+D a-finali.ads		20070606220643 9eaacebd
+D a-filico.ads		20060315055352 9299732a
+D a-ioexce.ads		20070406123246 be0900a0
+D a-stream.ads		20061101132108 34aca5be
+D a-tags.ads		20070821203210 64699440
+D a-textio.ads		20070821203210 78e78528
+D a-unccon.ads		20070406123225 51e09df2
+D algebre.ads		20131010180008 247194e5
+D interfac.ads		20060315055245 a69cad5c
+D i-cstrea.ads		20070406123227 e1e064a9
+D stl.ads		20131012162217 1472bfb6
+D stl.adb		20131012162357 e696ad2e
+D system.ads		20070821205556 a70c8a9a
+D s-crtl.ads		20070406123224 ef997abb
+D s-exctab.ads		20070606220646 e14b1567
+D s-ficobl.ads		20070821203211 8bb681e5
+D s-finimp.ads		20070606220651 9449f4cb
+D s-finroo.ads		20070821203209 1408f9d1
+D s-parame.ads		20070821203209 f32e56e9
+D s-secsta.ads		20070406123221 db466d0c
+D s-soflin.ads		20070606220627 677820d8
+D s-stache.ads		20070821203210 07e06d0a
+D s-stalib.ads		20070606220649 26598c1c
+D s-stoele.ads		20070606220646 25ef1e94
+D s-stoele.adb		20070606220645 0b6bda98
+D s-stratt.ads		20070406123229 b4bf338e
+D s-traent.ads		20060315055223 9950c76b
+D s-unstyp.ads		20070606220631 77bf8976
+X 1 ada.ads
+16K9*Ada 19e8 14|2r6 3r5
+X 8 a-textio.ads
+49K13*Text_IO 451e16 14|2w10 3r9
+52P9*File_Type(339R9) 14|8r21 30r21
+53n23*In_File{53E9} 14|11r41 37r41
+93U14*Open 14|11r17 37r17
+94p7 File{52P9} 14|11r22 37r22
+95e7 Mode{53E9} 14|11r33 37r33
+96s7 Name{string} 14|11r50 37r50
+99U14*Close 14|23r17 39r17
+184V13*End_Of_File{boolean} 14|13r27
+209U14*Put 14|20r33
+224U14*Get_Immediate 14|19r33
+254V13*Get_Line{string} 14|15r50
+X 10 algebre.ads
+1K9*Algebre 37e4 13|1w6 2r5
+5A14*Vecteur(float) 13|9r30
+X 13 stl.ads
+4K9*STL 22e4 14|5b14 43t4
+8R14*Facette 10e19 12r60
+9a17*P1{10|5A14}
+9a21*P2{10|5A14}
+9a25*P3{10|5A14}
+12A14*Tableau_Facette(8R14) 14r33 14|34r26
+14P14*Maillage(12A14) 17r64 14|27r64 29r21
+17V18*Chargement_ASCII{14P14} 17>35 14|27b18 41t12
+17s35 Nom_Fichier{string} 14|27b35 32r48 37r58
+20V18*Nombre_Facettes{natural} 20>34 14|7b18 25t7 32r32
+20s34 Nom_Fichier{string} 14|7b34 11r58
+X 14 stl.adb
+8p17 F{8|52P9} 11m30 13r40 15r60 23m23
+9i17 Nb{natural} 24r24
+15a33 Line{string}
+17e33 CarCour{character} 19m47 20r37
+28i17 Nb_Facettes{natural} 32m17 34r45
+29p17 M{13|14P14} 34m17 40r24
+30p17 F{8|52P9} 37m30 39m24
+

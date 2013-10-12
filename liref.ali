@@ -1,0 +1,21 @@
+V "GNAT Lib v4.3"
+M P W=b
+A -mmacosx-version-min=10.8.5
+P ZX
+R nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
+
+U liref%b		liref.adb		0899a647 NE SU
+W stl%s			stl.adb			stl.ali
+
+D algebre.ads		20131010180008 247194e5
+D liref.adb		20131012162218 1ceb19f1
+D stl.ads		20131012162217 1472bfb6
+D system.ads		20070821205556 a70c8a9a
+X 2 liref.adb
+2U11*lireF 2b11 7t4
+3a1 fichier{string} 6r31
+4i1 nb{natural} 6m9
+X 3 stl.ads
+4K9*STL 2|1w6 1r16 3|22e4
+20V18*Nombre_Facettes{natural} 2|6r15
+

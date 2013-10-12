@@ -1,0 +1,56 @@
+V "GNAT Lib v4.3"
+A -mmacosx-version-min=10.8.5
+P SS ZX
+R nnnnnnnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
+
+U algebre%b		algebre.adb		a43d11d0 NE PK
+W ada%s			ada.ads			ada.ali
+W ada.numerics%s	a-numeri.ads		a-numeri.ali
+W ada.numerics.elementary_functions%s  a-nuelfu.ads  a-nuelfu.ali
+W system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+
+U algebre%s		algebre.ads		247194e5 EE NE PK
+
+D ada.ads		20070406123219 9c7dd3ea
+D a-numeri.ads		20070406123226 1cf3e608
+D a-nuelfu.ads		20070406123228 b3ddb2e1
+D a-ngelfu.ads		20070406123231 46fb4d9b
+D a-unccon.ads		20070406123225 51e09df2
+D algebre.ads		20131010180008 247194e5
+D algebre.adb		20131010175950 339137d4
+D system.ads		20070821205556 a70c8a9a
+D s-exctab.ads		20070606220646 e14b1567
+D s-secsta.ads		20070406123221 db466d0c
+D s-stalib.ads		20070606220649 26598c1c
+D s-stoele.ads		20070606220646 25ef1e94
+D s-stoele.adb		20070606220645 0b6bda98
+X 1 ada.ads
+16K9*Ada 19e8 7|2r6 3r5
+X 2 a-numeri.ads
+16K13*Numerics 32e17 7|2r10 3r9
+X 3 a-nuelfu.ads
+18K22*Elementary_Functions[4|19] 7|2w19 3r18
+X 6 algebre.ads
+1K9*Algebre 37e4 7|5b14 37t4
+5A14*Vecteur(float) 17r45 24r54 27r41 27r57 36r39 36r69 7|8r45 15r54 22r41
+. 22r57 23r21 30r39 30r69 31r28
+6A14*Matrice(float) 17r61 24r70 27r27 36r53 7|8r61 9r28 15r70 16r28 22r27
+. 30r53
+17V18*Matrice_Rotations{6A14} 17>36 7|8b18 13t12
+17a36 Angles{5A14} 7|8b36
+24V18*Matrice_Rotations_Inverses{6A14} 24>45 7|15b18 20t12
+24a45 Angles{5A14} 7|15b45
+27V18*"*"{5A14} 27>23 27>37 7|22b18 27t12
+27a23 X{6A14} 7|22b23 23r29
+27a37 Y{5A14} 7|22b37
+36V18*Projection{5A14} 36>29 36>32 36>35 36>49 7|30b18 35t12
+36a29 A{5A14} 7|30b29
+36a32 C{5A14} 7|30b32
+36a35 E{5A14} 7|30b35
+36a49 T{6A14} 7|30b49
+X 7 algebre.adb
+9a17 Rotation{6|6A14} 12r24
+16a17 Rotation{6|6A14} 19r24
+23a17 Z{6|5A14} 26r24
+31a17 Resultat{6|5A14} 34r24
+
