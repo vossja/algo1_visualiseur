@@ -1,21 +1,85 @@
 V "GNAT Lib v4.3"
 M P W=b
 A -mmacosx-version-min=10.8.5
-P ZX
-R nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
+P SS ZX
+R nnnnnnnnnnnnnnnnnnnnnvvnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
 
-U liref%b		liref.adb		0899a647 NE SU
+U liref%b		liref.adb		94e0cb09 NE SU
+W ada%s			ada.ads			ada.ali
+W ada.float_text_io%s	a-flteio.ads		a-flteio.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W algebre%s		algebre.adb		algebre.ali
 W stl%s			stl.adb			stl.ali
+W system.img_real%s	s-imgrea.adb		s-imgrea.ali
+W system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+W system.string_ops%s	s-strops.adb		s-strops.ali
+W system.string_ops_concat_5%s  s-sopco5.adb	s-sopco5.ali
 
+D ada.ads		20070406123219 9c7dd3ea
+D a-except.ads		20070606220628 ba3e26e2
+D a-finali.ads		20070606220643 9eaacebd
+D a-filico.ads		20060315055352 9299732a
+D a-flteio.ads		20070406123221 3407344a
+D a-ioexce.ads		20070406123246 be0900a0
+D a-stream.ads		20061101132108 34aca5be
+D a-tags.ads		20070821203210 64699440
+D a-textio.ads		20070821203210 78e78528
+D a-tiflio.ads		20060315055254 5d91823c
+D a-unccon.ads		20070406123225 51e09df2
 D algebre.ads		20131010180008 247194e5
-D liref.adb		20131012162218 1ceb19f1
-D stl.ads		20131012162217 1472bfb6
+D interfac.ads		20060315055245 a69cad5c
+D i-cstrea.ads		20070406123227 e1e064a9
+D liref.adb		20131015164305 31f70445
+D stl.ads		20131015164309 cd86eacb
 D system.ads		20070821205556 a70c8a9a
-X 2 liref.adb
-2U11*lireF 2b11 7t4
-3a1 fichier{string} 6r31
-4i1 nb{natural} 6m9
-X 3 stl.ads
-4K9*STL 2|1w6 1r16 3|22e4
-20V18*Nombre_Facettes{natural} 2|6r15
+D s-crtl.ads		20070406123224 ef997abb
+D s-exctab.ads		20070606220646 e14b1567
+D s-ficobl.ads		20070821203211 8bb681e5
+D s-finimp.ads		20070606220651 9449f4cb
+D s-finroo.ads		20070821203209 1408f9d1
+D s-imgrea.ads		20060315055257 61db9acd
+D s-parame.ads		20070821203209 f32e56e9
+D s-secsta.ads		20070406123221 db466d0c
+D s-soflin.ads		20070606220627 677820d8
+D s-stache.ads		20070821203210 07e06d0a
+D s-stalib.ads		20070606220649 26598c1c
+D s-stoele.ads		20070606220646 25ef1e94
+D s-stoele.adb		20070606220645 0b6bda98
+D s-stratt.ads		20070406123229 b4bf338e
+D s-strops.ads		20060315055327 92e79914
+D s-sopco3.ads		20060315055312 14cc5bf6
+D s-sopco4.ads		20060315055323 dca7f27b
+D s-sopco5.ads		20060315055332 63c5ad18
+D s-traent.ads		20060315055223 9950c76b
+D s-unstyp.ads		20070606220631 77bf8976
+X 1 ada.ads
+16K9*Ada 19e8 15|1r20 1r39 1r71 1r84
+X 5 a-flteio.ads
+20K13*Float_Text_IO[10|47] 15|1w24 1r88
+X 9 a-textio.ads
+49K13*Text_IO 451e16 15|1w43 1r75
+167U14*New_Line 15|19r9 22r9 25r9 28r9
+243U14*Put 15|18r9 21r9 24r9 27r9
+X 12 algebre.ads
+1K9*Algebre 37e4 15|1w11 1r62
+5A14*Vecteur(float) 15|6r4
+X 15 liref.adb
+2U11*lireF 2b11 38t4
+3a1 fichier{string} 13r23
+4i1 nb{natural}
+5p1 M{16|14P14} 13m1 15r29 16r13
+6a1 v{12|5A14} 20m9 21r42 21r68 21r94 23m9 24r42 24r68 24r94 26m9 27r42 27r68
+. 27r94
+7r1 f{16|8R14} 16m9 20r14 23r14 26r14
+8a1 s{string}
+15i5 i{integer} 16r15
+X 16 stl.ads
+4K9*STL 15|1w6 1r57 16|23e4
+8R14*Facette 15|7r4 16|10e19
+9a17*P1{12|5A14} 15|20r16
+9a21*P2{12|5A14} 15|23r16
+9a25*P3{12|5A14} 15|26r16
+12A14*Tableau_Facette(8R14)
+14P14*Maillage(12A14) 15|5r5
+17V18*Chargement_ASCII{14P14} 15|13r6
 

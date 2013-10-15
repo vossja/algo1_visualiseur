@@ -1,33 +1,42 @@
 V "GNAT Lib v4.3"
 A -mmacosx-version-min=10.8.5
 P SS ZX
-R nnnvnnnnnnnnnnnnnnnnnnvnnnnnvnnnnnnnnvnvnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
+R nnnvnnnvnnnnnnnnnnnnnvvnnnnnvnnnnnnnnvnvnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
 
-U stl%b			stl.adb			8a0397b0 NE PK IU
+U stl%b			stl.adb			5c43269f NE PK IU
 W ada%s			ada.ads			ada.ali
+W ada.float_text_io%s	a-flteio.ads		a-flteio.ali
+W ada.integer_text_io%s	a-inteio.ads		a-inteio.ali
 W ada.text_io%s		a-textio.adb		a-textio.ali
+W algebre%s		algebre.adb		algebre.ali
+W system.exn_llf%s	s-exnllf.adb		s-exnllf.ali
 W system.secondary_stack%s  s-secsta.adb	s-secsta.ali
 
-U stl%s			stl.ads			30032b53 EE NE PK IU
+U stl%s			stl.ads			e9f77e2e EE NE PK IU
 W algebre%s		algebre.adb		algebre.ali
 
 D ada.ads		20070406123219 9c7dd3ea
 D a-except.ads		20070606220628 ba3e26e2
 D a-finali.ads		20070606220643 9eaacebd
 D a-filico.ads		20060315055352 9299732a
+D a-flteio.ads		20070406123221 3407344a
+D a-inteio.ads		20070406123233 03bc737c
 D a-ioexce.ads		20070406123246 be0900a0
 D a-stream.ads		20061101132108 34aca5be
 D a-tags.ads		20070821203210 64699440
 D a-textio.ads		20070821203210 78e78528
+D a-tiflio.ads		20060315055254 5d91823c
+D a-tiinio.ads		20060315055256 949a7272
 D a-unccon.ads		20070406123225 51e09df2
 D algebre.ads		20131010180008 247194e5
 D interfac.ads		20060315055245 a69cad5c
 D i-cstrea.ads		20070406123227 e1e064a9
-D stl.ads		20131012162217 1472bfb6
-D stl.adb		20131012162357 e696ad2e
+D stl.ads		20131015164309 cd86eacb
+D stl.adb		20131015165447 fae89aaf
 D system.ads		20070821205556 a70c8a9a
 D s-crtl.ads		20070406123224 ef997abb
 D s-exctab.ads		20070606220646 e14b1567
+D s-exnllf.ads		20060315055351 47d2870b
 D s-ficobl.ads		20070821203211 8bb681e5
 D s-finimp.ads		20070606220651 9449f4cb
 D s-finroo.ads		20070821203209 1408f9d1
@@ -42,41 +51,67 @@ D s-stratt.ads		20070406123229 b4bf338e
 D s-traent.ads		20060315055223 9950c76b
 D s-unstyp.ads		20070606220631 77bf8976
 X 1 ada.ads
-16K9*Ada 19e8 14|2r6 3r5
-X 8 a-textio.ads
-49K13*Text_IO 451e16 14|2w10 3r9
-52P9*File_Type(339R9) 14|8r21 30r21
-53n23*In_File{53E9} 14|11r41 37r41
-93U14*Open 14|11r17 37r17
-94p7 File{52P9} 14|11r22 37r22
-95e7 Mode{53E9} 14|11r33 37r33
-96s7 Name{string} 14|11r50 37r50
-99U14*Close 14|23r17 39r17
-184V13*End_Of_File{boolean} 14|13r27
-209U14*Put 14|20r33
-224U14*Get_Immediate 14|19r33
-254V13*Get_Line{string} 14|15r50
-X 10 algebre.ads
-1K9*Algebre 37e4 13|1w6 2r5
-5A14*Vecteur(float) 13|9r30
-X 13 stl.ads
-4K9*STL 22e4 14|5b14 43t4
+16K9*Ada 19e8 18|2r6 2r18 2r38 3r5 3r17 3r37
+X 5 a-flteio.ads
+20K13*Float_Text_IO[11|47] 18|2w42 3r41
+X 6 a-inteio.ads
+18K13*Integer_Text_IO[12|47] 18|2w22 3r21
+X 10 a-textio.ads
+49K13*Text_IO 451e16 18|2w10 3r9
+52P9*File_Type(339R9) 18|40r21 118r21
+53n23*In_File{53E9} 18|43r41 127r41
+93U14*Open 18|43r17 127r17
+94p7 File{52P9} 18|43r22 127r22
+95e7 Mode{53E9} 18|43r33 127r33
+96s7 Name{string} 18|43r50 127r50
+99U14*Close 18|54r17 161r17
+184V13*End_Of_File{boolean} 18|45r27 128r27
+254V13*Get_Line{string} 18|47r54 133r47
+X 14 algebre.ads
+1K9*Algebre 37e4 17|1w6 2r5 18|2w56 3r57
+5A14*Vecteur(float) 17|9r30 21r47 18|59r47 64r23 131r39
+X 17 stl.ads
+4K9*STL 23e4 18|5b14 165t4
 8R14*Facette 10e19 12r60
-9a17*P1{10|5A14}
-9a21*P2{10|5A14}
-9a25*P3{10|5A14}
-12A14*Tableau_Facette(8R14) 14r33 14|34r26
-14P14*Maillage(12A14) 17r64 14|27r64 29r21
-17V18*Chargement_ASCII{14P14} 17>35 14|27b18 41t12
-17s35 Nom_Fichier{string} 14|27b35 32r48 37r58
-20V18*Nombre_Facettes{natural} 20>34 14|7b18 25t7 32r32
-20s34 Nom_Fichier{string} 14|7b34 11r58
-X 14 stl.adb
-8p17 F{8|52P9} 11m30 13r40 15r60 23m23
-9i17 Nb{natural} 24r24
-15a33 Line{string}
-17e33 CarCour{character} 19m47 20r37
-28i17 Nb_Facettes{natural} 32m17 34r45
-29p17 M{13|14P14} 34m17 40r24
-30p17 F{8|52P9} 37m30 39m24
+9a17*P1{14|5A14} 18|150m67
+9a21*P2{14|5A14} 18|152m67
+9a25*P3{14|5A14} 18|154m67
+12A14*Tableau_Facette(8R14) 14r33 18|124r26
+14P14*Maillage(12A14) 17r64 18|115r64 117r21
+17V18*Chargement_ASCII{14P14} 17>35 18|115b18 163t12
+17s35 Nom_Fichier{string} 18|115b35 122r48 127r58
+20V18*Nombre_Facettes{natural} 20>34 18|39b18 56t12 122r32
+20s34 Nom_Fichier{string} 18|39b34 43r58
+21V18*litVertex{14|5A14} 21>29 18|59b18 111t12 147r48
+21s29 s{string} 18|59b29 70r45 71r32 93r53
+X 18 stl.adb
+10V18 TrouveMot{boolean} 10b18 10>29 10>42 36t12 49r36 138r36 145r36
+10s29 S{string} 17r45 18r28 20r50 23r28 23r54
+10s42 M{string} 27r61
+11i17 IndexM{natural} 19m33 19r43 20r39 24r47 25m33
+12a17 UnMot{string} 20m33 27r36
+13i17 LongeurMot{natural} 24m33 27r47
+14b17 Trouve{boolean} 29m41 35r24
+15E25 lettre{character} 18r36 23r40
+17i21 I{integer} 18r30 20r52 23r30 23r50
+40p17 F{10|52P9} 43m30 45r40 47r63 54m23
+41i17 Nb{natural} 50m41 50r47 55r24
+47a33 uneLigne{string} 49r46
+60e17 Car{character} 71m25 72r30 77r83 79r87 93r36
+61b17 TrouveChiffre{boolean} 74m41 92r28 103m41
+62f17 Val{float} 77m49 77r56 79m49 79r56 95m49 95r62 98r56 101m41
+63i17 IndexV{natural} 97m41 97r51 98r45
+64a17 Vec{14|5A14} 98m41 110r24
+65b17 Negative{boolean} 83m41 94r44 104m41
+66b17 PartieDecimal{boolean} 75r44 86m41 105m41
+67i17 puissanceDecimal{natural} 76m41 76r61 77r117 102m41
+68E25 chiffre{character} 73r38
+70i21 j{integer} 71r34 93r49
+116i17 Nb_Facettes{natural} 122m17 124r45
+117p17 M{17|14P14} 124m17 150r57 152r57 154r57 162r24
+118p17 F{10|52P9} 127m30 128r39 133r56 161m24
+119i17 IndexF{natural} 140m41 140r51 150r59 152r59 154r59
+120i17 IndexV{natural} 146m41 146r51 148r46 155m57
+131a33 Vec{14|5A14} 147m41 150r73 152r73 154r73
+133a33 L{string} 138r46 145r46 147r58
 

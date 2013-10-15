@@ -18,5 +18,6 @@ package STL is
 
 	-- ajoute cette ligne pour tester, à supprimer apres
 	function Nombre_Facettes(Nom_Fichier : String) return Natural;
-
+	function litVertex (s: String) return Vecteur ;
+	
 end;
